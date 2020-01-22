@@ -15,4 +15,4 @@ def index():
             days_range=form.days_range.data,
             year_days=form.year_days.data
         )
-    return render_template('index.html', title='Settings', form=form, probability=probability)
+    return render_template('index.html', title='Birthday Calculator', form=form, probability=probability)
