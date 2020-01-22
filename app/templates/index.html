@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <br><br>
+    <h1>Birthday probability{% if probability %}:
+        <mark style="color: #2D79FD">{{ probability }}{% endif %}</mark>
+    </h1>
+    <p>Calculation the probability of finding at least one pair with birthdays in a group.</p>
+    <br>
+    {{ wtf.quick_form(form) }}
+
+{% endblock %}
