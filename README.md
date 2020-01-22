@@ -1,6 +1,9 @@
 # Birthday Calculator
 Calculation the probability of finding at least one pair with birthdays in a group. 
 
+## Preview
+![birthday_calculator](https://github.com/LialinMaxim/birthday_calculator/blob/master/app/static/demo.png?raw=true)
+
 ## Local launch
 
 Create `.env` if you want
